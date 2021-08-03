@@ -35,14 +35,14 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-oauth2-client</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.azure.spring</groupId>
 			<artifactId>azure-spring-boot-starter-active-directory</artifactId>
-		</dependency>
+		</dependency> -->
 	</dependencies>
 
 	<dependencyManagement>
@@ -54,13 +54,13 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
-			<dependency>
+			<!-- <dependency>
 				<groupId>com.azure.spring</groupId>
 				<artifactId>azure-spring-boot-bom</artifactId>
 				<version>${azure.version}</version>
 				<type>pom</type>
 				<scope>import</scope>
-			</dependency>
+			</dependency> -->
 		</dependencies>
 	</dependencyManagement>
 
